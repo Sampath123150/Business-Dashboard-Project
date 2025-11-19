@@ -22,10 +22,10 @@ The goal is to provide insights for informed decision-making.
 
 ## DAX
 Total_Sales = SUM(sales_data[Revenue])
+
 Total_Profit = SUM(sales_data[Profit])
+
 Profit_Margin = DIVIDE([Total_Profit], [Total_Sales])
-Customer_Count = DISTINCTCOUNT(sales_data[CustomerID])
-YoY_Growth = ([Total_Sales] - CALCULATE([Total_Sales]))
 
 ## Steps in creating this project
 
